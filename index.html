@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBÜ Not Hesaplayıcı</title>
+    <link rel="icon" type="image/png" href="kbulogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="kbulogo.png" style="height: 3cm; width: 3cm;">
+  <h1>KBÜ Not Hesaplıyıcı</h1>
+	 
+  <h2>Vize Notu:</h2>
+  <input type="text" id="vize">
+
+  <h2>Final Notu:</h2>
+  <input type="text" id="final">
+
+  <h2>Bütünleme (opsiyonel):</h2>
+  <input type="text" id="but">
+
+  <h2>Devam Durumu:</h2>
+  <input type="checkbox" id="f1"> Devamsızım
+
+  <h2>Genel/Bütünleme sınavı:</h2>
+  <input type="radio" name="radio1" value="evet"> Evet, girdim.
+  <input type="radio" name="radio1" value="hayir"> Hayır, girmedim.
+
+  <div class="buttons">
+  <button onkeydown="hesapla()">Hesapla</button>
+  <button onclick="sifirla()">Sıfırla</button>
+   </div>
+
+  <div id="sonuc-paneli">
+    <div id="finalNotu"></div>
+    <div id="ortalama"></div>
+    <div id="harf"></div>
+  </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
