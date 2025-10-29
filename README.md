@@ -24,11 +24,12 @@
 
 # Test senaryoları
 1. Yıl içi 70, Final 60
-
+![Test Senaryosu 1](images/test1.png)
 2. Yıl içi 95, Final 48
-
+![Test Senaryosu 2](images/test2.png)
 3. Yıl içi 58, Bütünleme 55 (Final girilmemiş)
-
+![Test Senaryosu 3](images/test3.png)
 4. Devamsız işaretli → F1 (Kaldı)
-
+![Test Senaryosu 4](images/test4.png)
 5. Devam var, sınava girmedi = Hayır → F2 (Kaldı).
+![Test Senaryosu 5](images/test5.png)
